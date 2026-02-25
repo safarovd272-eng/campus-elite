@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 
 async def main():
-    bot = Bot(token=BOT_TOKEN)
+    bot = Bot(token="8168049456:AAFRK0A6zPF1cQArMMSh1F7ob5V_LlHRCx0")
     storage = MemoryStorage()
     dp = Dispatcher(storage=storage)
 
@@ -40,7 +40,7 @@ async def main():
     scheduler.start()
     logger.info("✅ Scheduler ishga tushdi")
 
-    logger.info("🚀 Campus Elite Bot ishga tushdi!")
+    logger.info("🚀 Campus Elite bot ishga tushdi!")
     await dp.start_polling(bot, allowed_updates=dp.resolve_used_update_types())
 
 
