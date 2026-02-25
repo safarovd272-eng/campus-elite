@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Bot sozlamalari
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8168049456:AAFRK0A6zPF1cQArMMSh1F7ob5V_LlHRCx0")
 
 # Admin Telegram ID lari (vergul bilan ajrating)
 ADMIN_IDS_RAW = os.getenv("ADMIN_IDS", "123456789")
@@ -18,18 +18,13 @@ ADMIN_CHANNEL_ID = int(os.getenv("ADMIN_CHANNEL_ID", "0"))
 
 # Fakultetlar ro'yxati
 FACULTIES = [
-    "💻 Axborot texnologiyalari",
-    "📐 Muhandislik",
-    "💼 Iqtisodiyot va boshqaruv",
-    "⚖️ Huquq",
-    "🔬 Tabiiy fanlar",
-    "📚 Gumanitar fanlar",
-    "🏥 Tibbiyot",
-    "🎨 San'at va dizayn",
+    "💻 Iqtisodiyot va axborot texnologiyalari fakulteti",
+    "📚 Pedagogika va Ijtimoiy gumanitar fanlar fakulteti",
+    "🏥 Tibbiyot fakulteti",
 ]
 
 # Kurslar
-COURSES = ["1-kurs", "2-kurs", "3-kurs", "4-kurs", "5-kurs (magistr)"]
+COURSES = ["1-kurs", "2-kurs", "3-kurs", "4-kurs", "5-kurs",]
 
 # Faoliyat turlari va balllar
 ACTIVITIES = {
