@@ -7,7 +7,7 @@ load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8168049456:AAFRK0A6zPF1cQArMMSh1F7ob5V_LlHRCx0")
 
 # Admin Telegram ID lari (vergul bilan ajrating)
-ADMIN_IDS_RAW = os.getenv("ADMIN_IDS", "123456789")
+ADMIN_IDS_RAW = os.getenv("ADMIN_IDS", "6551375195")
 ADMIN_IDS = [int(x.strip()) for x in ADMIN_IDS_RAW.split(",") if x.strip()]
 
 # Ma'lumotlar bazasi
