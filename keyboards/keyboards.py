@@ -111,7 +111,7 @@ def reply_to_user_keyboard(telegram_id: int) -> InlineKeyboardMarkup:
     return builder.as_markup()
 
 
-
+def cancel_keyboard() -> ReplyKeyboardMarkup:
     return ReplyKeyboardMarkup(
         keyboard=[[KeyboardButton(text="❌ Bekor qilish")]],
         resize_keyboard=True,
