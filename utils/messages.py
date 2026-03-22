@@ -256,10 +256,9 @@ def help_message() -> str:
         "/activities — Faoliyatlar ro'yxati\n"
         "/help — Yordam\n\n"
         "🏅 *Nishon tizimi:*\n"
-        "🥉 Bronze Active — 50+ ball\n"
-        "🥈 Silver Leader — 150+ ball\n"
-        "🥇 Gold Elite — 300+ ball\n"
-        "🏆 Campus Elite — TOP-10\n\n"
+        "🥉 Eng yaxshi talaba — 50+ ball\n"
+        "🥈 Eng dono talaba — 90+ ball\n"
+        "🥇 Super Talaba — 120+ ball\n"
         "📞 *Muammolar uchun:*\n"
         "Admin bilan bog'laning yoki /start buyrug'ini bering"
     )
