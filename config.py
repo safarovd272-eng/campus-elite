@@ -17,9 +17,7 @@ ADMIN_CHANNEL_ID = int(os.getenv("ADMIN_CHANNEL_ID", "0"))
 
 # Fakultetlar ro'yxati
 FACULTIES = [
-    "💻 Iqtisodiyot va axborot texnologiyalari fakulteti",
     "📚 Pedagogika va Ijtimoiy gumanitar fanlar fakulteti",
-    "🏥 Tibbiyot fakulteti",
 ]
 
 # Kurslar
