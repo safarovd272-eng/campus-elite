@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Bot sozlamalari
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8731746159:AAFB9EDKmxgQaKUaRP9yiDj7jJKjzuYPusQ")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8457415158:AAGSQKefTR1eSGIEv7FYdIjmErLeCJbdsHA")
 
 # Admin Telegram ID lari (vergul bilan ajrating)
 ADMIN_IDS_RAW = os.getenv("ADMIN_IDS", "7378071060")
