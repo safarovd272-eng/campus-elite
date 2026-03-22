@@ -9,7 +9,7 @@ def welcome_message() -> str:
         "✅ Faoliyatingiz uchun ball to'plasiz\n"
         "📊 Reytingdagi o'rningizni ko'rasiz\n"
         "🏅 Nishonlarga ega bo'lasiz\n"
-        "🏆 *\"Campus Elite\"* unvoniga erishasiz!\n\n"
+        "🏆 *\"STIPENDIAT\"* unvoniga erishasiz!\n\n"
         "Boshlash uchun ro'yxatdan o'ting 👇"
     )
 
