@@ -4,7 +4,7 @@ from config import ACTIVITIES, BADGE_THRESHOLDS
 def welcome_message() -> str:
     return (
         "🎓 *Assalomu alaykum!*\n\n"
-        "🏆 *Campus Elite* — Student Ranking System botiga xush kelibsiz!\n\n"
+        "🏆 *🎓 Stipendiat Ball Tracker* — 🎓 Stipendiat Ball Tracker botiga xush kelibsiz!\n\n"
         "Bu bot orqali siz:\n"
         "✅ Faoliyatingiz uchun ball to'plasiz\n"
         "📊 Reytingdagi o'rningizni ko'rasiz\n"
