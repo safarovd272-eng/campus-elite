@@ -26,7 +26,7 @@ def registration_start() -> str:
     return (
         "📝 *Ro'yxatdan O'tish*\n\n"
         "Iltimos, to'liq ism-sharifingizni kiriting:\n"
-        "_(Masalan: Abdullayev Jasur Baxtiyor o'g'li)_"
+        "_(Masalan: Safarov Diyorbek  Iskandar o'g'li)_"
     )
 
 
@@ -40,8 +40,8 @@ def registration_course() -> str:
 
 def registration_student_id() -> str:
     return (
-        "🪪 Talaba ID raqamingizni kiriting:\n"
-        "_(Masalan: AT-2022-0145)_"
+        "🪪 Guruhibgizni kiriting:\n"
+        "_(Masalan: KBT-22)_"
     )
 
 
