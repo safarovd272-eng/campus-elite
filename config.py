@@ -1,13 +1,12 @@
 import os
 from dotenv import load_dotenv
-
 load_dotenv()
 
 # Bot sozlamalari
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8168049456:AAFRK0A6zPF1cQArMMSh1F7ob5V_LlHRCx0")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8731746159:AAFB9EDKmxgQaKUaRP9yiDj7jJKjzuYPusQ")
 
 # Admin Telegram ID lari (vergul bilan ajrating)
-ADMIN_IDS_RAW = os.getenv("ADMIN_IDS", "6551375195")
+ADMIN_IDS_RAW = os.getenv("ADMIN_IDS", "7378071060")
 ADMIN_IDS = [int(x.strip()) for x in ADMIN_IDS_RAW.split(",") if x.strip()]
 
 # Ma'lumotlar bazasi
@@ -24,43 +23,37 @@ FACULTIES = [
 ]
 
 # Kurslar
-COURSES = ["1-kurs", "2-kurs", "3-kurs", "4-kurs", "5-kurs",]
+COURSES = ["1-kurs", "2-kurs", "3-kurs", "4-kurs", "5-kurs"]
 
 # Faoliyat turlari va balllar
 ACTIVITIES = {
     "event_participation": {
         "name": "🎪 Tadbirda ishtirok etish",
-        "points": 5,
+        "points": 2,
         "description": "Universitet yoki tashqi tadbirlarda ishtirok",
         "max_per_semester": None,
     },
-    "event_organizer": {
-        "name": "🎤 Tadbir tashkilotchisi",
-        "points": 15,
-        "description": "Tadbirni tashkil etish va boshqarish",
+    "article_oak": {
+        "name": "📰 Maqola nashr etish (OAK jurnal)",
+        "points": 3,
+        "description": "Ilmiy yoki ommabop maqola nashr etish",
         "max_per_semester": 5,
     },
-    "project_initiative": {
-        "name": "💡 Loyiha tashabbus",
-        "points": 25,
-        "description": "Yangi loyiha boshlash va rahbarlik qilish",
-        "max_per_semester": 3,
-    },
-    "article_publication": {
-        "name": "📰 Maqola nashr etish",
-        "points": 20,
+    "article_local": {
+        "name": "📰 Maqola nashr etish (mahalliy jurnal)",
+        "points": 2,
         "description": "Ilmiy yoki ommabop maqola nashr etish",
         "max_per_semester": 5,
     },
     "national_conference": {
         "name": "🎓 Milliy konferensiya",
-        "points": 30,
+        "points": 1,
         "description": "Milliy darajadagi konferensiyada ishtirok",
         "max_per_semester": 3,
     },
     "international_publication": {
         "name": "🌍 Xalqaro nashr",
-        "points": 50,
+        "points": 2,
         "description": "Xalqaro jurnalda nashr yoki konferensiya",
         "max_per_semester": 2,
     },
@@ -70,11 +63,17 @@ ACTIVITIES = {
         "description": "Ijtimoiy foydali ishlarda ko'ngillilik",
         "max_per_semester": 10,
     },
-    "startup_launched": {
-        "name": "🚀 Startap boshlash",
-        "points": 60,
-        "description": "Rasmiy ro'yxatdan o'tgan startap/biznes",
-        "max_per_semester": 1,
+    "dgu_certificate": {
+        "name": "📜 DGU guvohnoma",
+        "points": 3,
+        "description": "DGU tomonidan berilgan guvohnoma",
+        "max_per_semester": None,
+    },
+    "newspaper_article": {
+        "name": "🗞️ Gazetaga maqola",
+        "points": 1,
+        "description": "Gazetada maqola chop etish",
+        "max_per_semester": None,
     },
 }
 
