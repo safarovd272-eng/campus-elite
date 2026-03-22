@@ -40,7 +40,7 @@ def registration_course() -> str:
 
 def registration_student_id() -> str:
     return (
-        "🪪 Guruhibgizni kiriting:\n"
+        "🪪 Guruhingizni kiriting:\n"
         "_(Masalan: KBT-22)_"
     )
 
